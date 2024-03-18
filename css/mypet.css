@@ -1,0 +1,94 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Chakra+Petch:ital,wght@0,500;1,300;1,400&display=swap');
+
+
+body{
+    background-color: #81C3D5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Akaya Kanadaka', system-ui;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+/* Start Header */
+header{
+    background-color: #29697A;
+}
+/* End Header */
+
+nav {
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    /* border: 2px solid pink; */
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.h1-title {
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu {
+    /* border: 2px solid pink; */
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* width: 500px; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    margin-right: 20px;
+}
+
+/* Start main-content */
+.main-content {
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+/* End main-content */
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+.images {
+    width: 100%;
+}
+
+.button {
+    color: aliceblue;
+    background-color: #29697A;
+    padding: 8px 24px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.text-param {
+    font-weight: 100;
+}
+
+/* Start Footer */
+footer{
+    background-color: #29697A;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+/* End Footer */
